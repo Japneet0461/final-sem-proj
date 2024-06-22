@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="css/papers.css">
+</head>
+<body>
+    <div class="container container-main">
+        <a href="home.html">
+            <img class="back-arrow" src="img/back_arrow.png" alt="">
+        </a>
+    <div class="container">
+        
+
+        <header>
+            <div class="logo">
+            <a href="home.html">
+                <img src="https://bahrauniversity.edu.in/wp-content/uploads/2022/03/logo-new.png" class="logo" alt="Bahra University Logo" >
+            </a>
+        </div>
+        
+        <div class="university-details">
+            <h1>Upload Your <br> Research Paper</h1>
+            <p>Bahra University, Shimla Hills, Waknaghat, Himachal Pradesh - 173234</p>
+            <p>Phone: +91-9997775683  <br> Email: info@bahrauniversity.edu.in</p>
+        </div>
+        </header>
+
+        <form id="upload-form">
+            <div class="form-group">
+                <input type="text" id="caption" placeholder="Caption" required>
+            </div>
+            <div class="form-group">
+                <input type="file" id="file-input" accept="image/*" required>
+            </div>
+            
+            <button type="submit">Upload Paper</button> 
+
+            <a href="view_papers.html">
+                <button type="button" class="view-papers">View Papers</button>
+            </a>
+
+
+        </form>
+        <div id="papers-list"></div>
+    </div>
+</div>
+
+
+    <script type="module" src="papers.js"></script>
+</body>
+</html>

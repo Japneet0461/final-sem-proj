@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.container-main{
+    text-align: left !important;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Styles */
+header h1 {
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Logo Styles */
+.logo {
+    margin-bottom: 20px;
+}
+
+/* University Details Styles */
+.university-details {
+    margin-bottom: 20px;
+}
+
+/* Authentication Buttons Styles */
+.auth-buttons {
+    margin-bottom: 20px;
+}
+
+.auth-buttons .button {
+    margin-right: 10px;
+}
+/* Logo Styles */
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the logo horizontally */
+    /* border-radius: 50%; Apply rounded corners for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+/* Paper Item Styles */
+.paper-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.paper-item img {
+    max-width: 100%; /* Limit image width to container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.paper-item p {
+    margin-top: 10px;
+}
+
+#view-papers-btn{
+    margin-top: 1em !important; 
+}
+
+    
+.back-arrow{
+    width: 1.5em;
+    cursor: pointer;
+}
+
+header{
+    text-align: center;
+}
+
+.disp-none{
+    display: none;
+}

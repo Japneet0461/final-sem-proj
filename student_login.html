@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    
+    <div class="container container-main">
+        <a href="index.html">
+            <img class="back-arrow" src="img/back_arrow.png" alt="">
+        </a>
+
+        <div class="container">
+            <header>
+                <div class="logo">
+                <a href="home.html">
+                    <img src="https://bahrauniversity.edu.in/wp-content/uploads/2022/03/logo-new.png" class="logo" alt="Bahra University Logo" >
+                </a>
+            </div>
+            
+            <div class="university-details">
+                <h1>Research Paper <br> Central Hub</h1>
+                <p>Bahra University, Shimla Hills, Waknaghat, Himachal Pradesh - 173234</p>
+                <p>Phone: +91-9997775683  <br> Email: info@bahrauniversity.edu.in</p>
+            </div>
+            </header>
+        </div>
+        <h1>Login</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+    <script>
+        function view_papers()
+        {
+            window.location.href="papers.html";
+        }
+    </script>
+    <script src="login.js"></script>
+</body>
+</html>

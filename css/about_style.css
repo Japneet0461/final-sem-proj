@@ -1,0 +1,49 @@
+.about{
+    padding: 5rem 0;
+}
+
+.about-heading{
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(230, 18, 18);
+    width: 50%;
+}
+
+ul li{
+    list-style: none;
+}
+
+.about{
+    padding-left: 4em;
+    padding-right: 4em;
+    width: 70em;
+}
+
+.h-image{
+    width: 100%;
+    z-index: 0;
+}
+
+.heading{
+    z-index: 1;
+    position: absolute;
+    left: 45%; 
+    top: 50%;
+    font-size: 40px;
+    color: red;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left-img, .about-right-img{
+    width: 50em;
+    height: 30em;
+}
+
+footer{
+    margin-left: 25em;
+}

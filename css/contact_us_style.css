@@ -1,0 +1,49 @@
+li{
+    list-style: none;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20em;
+}
+
+.contact-hero{
+    width: 50em;
+    margin-left: 5em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+input{
+    height: 3em;
+    padding: 0em 1em;
+}
+
+.input{
+    width: 30em;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin-bottom: 2em; 
+    font-weight: bold;
+}
+
+textarea{
+    padding: 1em;
+}
+
+.button{
+    background-color: green;
+    border: none;
+    padding: 1em 2em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+footer{
+    margin-left: 25em;
+}

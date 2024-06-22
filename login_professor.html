@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container container-main">
+        <a href="index.html">
+            <img class="back-arrow" src="img/back_arrow.png" alt="">
+        </a>
+
+        <div class="container">
+            <header>
+                <div class="logo">
+                <a href="home.html">
+                    <img src="https://bahrauniversity.edu.in/wp-content/uploads/2022/03/logo-new.png" class="logo" alt="Bahra University Logo" >
+                </a>
+            </div>
+            
+            <div class="university-details">
+                <h1>Research Paper <br> Central Hub</h1>
+                <p>Bahra University, Shimla Hills, Waknaghat, Himachal Pradesh - 173234</p>
+                <p>Phone: +91-9997775683  <br> Email: info@bahrauniversity.edu.in</p>
+            </div>
+            </header>
+        </div>
+        <header>
+            <h1>Professor login</h1>
+        </header>
+        <form id="signup-form">
+            <br>
+            <input type="text" id="name" placeholder="Name" required><br><br>
+            <div class="form-group">
+                <select id="department" required>
+                    <option value="" disabled selected>Select Department</option>
+                    <option value="computer_science">Computer Science</option>
+                    <option value="mechanical_engineering">Mechanical Engineering</option>
+                    <option value="electrical_engineering">Electrical Engineering</option>
+                    <option value="Law">Law</option>
+                    <option value="Management">Management</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="Physiotherapy">Physiotherapy</option>
+                    <!-- Add more departments as needed -->
+                </select>
+            </div>
+            <input type="text" id="reg-id" placeholder="Registration ID" required><br><br>
+            <input type="text" id="username" placeholder="Username" required><br><br>
+            <input type="password" id="password" placeholder="Password" required><br><br>
+            <button class="submit-button" type="submit">Signup</button>
+            
+        </form>
+    
+    </div>
+    
+    <script src="signup.js"></script>
+</body>
+</html>
